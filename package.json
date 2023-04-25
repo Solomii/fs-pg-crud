@@ -2,9 +2,9 @@
   "name": "fs-pg-crud",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./server.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,8 @@
   "dependencies": {
     "express": "^4.18.2",
     "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
